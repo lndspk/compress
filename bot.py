@@ -4,9 +4,7 @@ import asyncio
 import random
 import uuid
 import requests
-import shutil
 import urllib.request
-
 from pygifsicle import optimize
 from pygifsicle import gifsicle
 
@@ -35,7 +33,5 @@ async def compress(ctx):
 	)
 	channel = client.get_channel("channel id")
 	await ctx.channel.send(file=discord.File(imageName))
-
-#	await message.channel.send(file=discord.File(imageName))
 
 client.run('token')
