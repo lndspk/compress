@@ -38,4 +38,4 @@ async def compress(ctx):
 
 #	await message.channel.send(file=discord.File(imageName))
 
-client.run('ODcwOTE3ODA0OTczNTEwNjg2.YQTvaQ.fVBL4osNAcK2VobFjpHWC7FP89Y')
+client.run('token')
